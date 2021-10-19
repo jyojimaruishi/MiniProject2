@@ -25,7 +25,7 @@ class Main {
     }
 
     //reports number of candy and % of pillowcase filled
-    System.out.println("We have " + p.getCandyCount() + " candies, " + (p.getCandyCount()/p.SIZE)*100 + "% of our pillowcase.");
+    System.out.println("We have " + p.getCandyCount() + " candies, " + p.getCandyCount() * 100 / p.SIZE + "% of our pillowcase.");
 
     p.printNumCandies();
   }
